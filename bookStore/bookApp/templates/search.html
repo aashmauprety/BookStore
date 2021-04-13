@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form action="/search_result/" method="POST">	
+    {% csrf_token %}
+    	{{form}}
+    <input type="submit" value="Search">
+</form>
+</body>
+</html>
+
+
