@@ -40,24 +40,11 @@ Django admin dashboard can be accessed at ```localhost:8000/admin```.  To login 
 
 1) Create a superuser using the command '''python3 manage.py createsuperuser'''
 2) Now you can log in via http://127.0.0.1:8000/admin page through which you can see the table created. You can modify them using the interface of superuser/admin.
-Django admin dashboard can be accessed at ```localhost:8000/admin```. 
+Django admin dashboard can also be accessed at ```localhost:8000/admin```. 
 
 # Project Structure:
 - bookApp application is present within the bookStore project and utilises most of the common components generated when setting up Django project for the firtst time. 
 - queries.sql is included to show what some of the queries look like to populate the database
 - HTML templates are present in the templates directory under the app's root folder. 
 
-### ToDos
-
-- [X] Design the ER diagram;
-- [X] Books should be under different categories such as computer science, biology, novel, etc.
-- [X] Write the commands for creating tables and inserting values;
-- [X] Show the tables with the contents that you have inserted;
-- [X] Add books, delete books, update books.
-- [X] List all of the books for a given author;
-- [X] Books are searchable via ISBN, title, author name, publisher, etc;
-- [ ] Books can be added to a shoppinng cart; Can be checked out or saved;
-- [X] Warehouse quantities need to be updated automatically; if there are only 5 books left in the warehouse, an alert should be trigged;
-- [X] Give some statistics such as the top saled books, average saled book, etc.
-- [ ] Implement shopping cart
 
